@@ -40,6 +40,7 @@
             this.materialRaisedButton1 = new MaterialSkin.Controls.MaterialRaisedButton();
             this.materialSingleLineTextField2 = new MaterialSkin.Controls.MaterialSingleLineTextField();
             this.materialLabel2 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialLabel3 = new MaterialSkin.Controls.MaterialLabel();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
@@ -53,7 +54,7 @@
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Location = new System.Drawing.Point(299, 152);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(308, 355);
+            this.panel1.Size = new System.Drawing.Size(308, 389);
             this.panel1.TabIndex = 1;
             // 
             // pictureBox1
@@ -69,6 +70,7 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.White;
+            this.panel2.Controls.Add(this.materialLabel3);
             this.panel2.Controls.Add(this.materialSingleLineTextField2);
             this.panel2.Controls.Add(this.materialLabel2);
             this.panel2.Controls.Add(this.materialRaisedButton1);
@@ -77,7 +79,7 @@
             this.panel2.Controls.Add(this.panel3);
             this.panel2.Location = new System.Drawing.Point(3, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(301, 351);
+            this.panel2.Size = new System.Drawing.Size(301, 386);
             this.panel2.TabIndex = 2;
             // 
             // textCommand1
@@ -174,6 +176,20 @@
             this.materialLabel2.TabIndex = 6;
             this.materialLabel2.Text = "Password :";
             // 
+            // materialLabel3
+            // 
+            this.materialLabel3.AutoSize = true;
+            this.materialLabel3.BackColor = System.Drawing.Color.White;
+            this.materialLabel3.Depth = 0;
+            this.materialLabel3.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(150)))), ((int)(((byte)(243)))));
+            this.materialLabel3.Location = new System.Drawing.Point(92, 351);
+            this.materialLabel3.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel3.Name = "materialLabel3";
+            this.materialLabel3.Size = new System.Drawing.Size(133, 19);
+            this.materialLabel3.TabIndex = 8;
+            this.materialLabel3.Text = "Forget Password ?";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -208,6 +224,7 @@
         private MaterialSkin.Controls.MaterialRaisedButton materialRaisedButton1;
         private MaterialSkin.Controls.MaterialSingleLineTextField materialSingleLineTextField2;
         private MaterialSkin.Controls.MaterialLabel materialLabel2;
+        private MaterialSkin.Controls.MaterialLabel materialLabel3;
 
 
     }
