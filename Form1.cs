@@ -10,7 +10,7 @@ using System.Windows.Forms;
 using MaterialSkin;
 using System.Security.Cryptography;
 
-namespace EncriptPassword
+namespace MaterialLogin
 {
     public partial class Form1 : MaterialSkin.Controls.MaterialForm
     {

@@ -1,4 +1,4 @@
-﻿namespace EncriptPassword
+﻿namespace MaterialLogin
 {
     partial class Form1
     {
@@ -56,7 +56,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::EncriptPassword.Properties.Resources.back;
+            this.pictureBox1.Image = global::MaterialLogin.Properties.Resources.back;
             this.pictureBox1.Location = new System.Drawing.Point(0, 64);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(906, 534);
